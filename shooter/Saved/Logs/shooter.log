@@ -1,0 +1,1165 @@
+﻿Log file open, 01/27/17 19:14:00
+LogInit:Display: Running engine for game: shooter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1123607167) SRandInit(1123607167).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.736466
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3269047
+LogInit: Engine Version: 4.15.0-3269047+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3269047+++UE4+Release-4.15
+LogInit: Net CL: 3269047
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Jan 24 2017 02:04:09
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Новая папка (5)/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.01.27-16.14.03:367][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.27-16.14.03:367][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.01.27-16.14.03:493][  0]LogInit: Computer: МАКС-ПК
+[2017.01.27-16.14.03:493][  0]LogInit: User: Макс
+[2017.01.27-16.14.03:493][  0]LogInit: CPU Page size=65536, Cores=1
+[2017.01.27-16.14.03:493][  0]LogInit: High frequency timer resolution =3.509316 MHz
+[2017.01.27-16.14.03:503][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2017.01.27-16.14.03:503][  0]LogMemory: Platform Memory Stats for Windows
+[2017.01.27-16.14.03:503][  0]LogMemory: Process Physical Memory: 262.24 MB used, 262.24 MB peak
+[2017.01.27-16.14.03:503][  0]LogMemory: Process Virtual Memory: 263.54 MB used, 263.54 MB peak
+[2017.01.27-16.14.03:503][  0]LogMemory: Physical Memory: 3218.29 MB used,  821.86 MB free, 4040.14 MB total
+[2017.01.27-16.14.03:503][  0]LogMemory: Virtual Memory: 629.02 MB used,  821.86 MB free, 8388608.00 MB total
+[2017.01.27-16.14.04:524][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2017.01.27-16.14.08:977][  0]LogD3D11RHI: D3D11 adapters:
+[2017.01.27-16.14.09:289][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 730' (Feature Level 11_0)
+[2017.01.27-16.14.09:289][  0]LogD3D11RHI:       973/0/1764 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.01.27-16.14.09:289][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.01.27-16.14.09:306][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.01.27-16.14.09:307][  0]LogD3D11RHI:     GPU DeviceId: 0x1287 (for the marketing name, search the web for "GPU Device Id")
+[2017.01.27-16.14.09:307][  0]LogWindows: EnumDisplayDevices:
+[2017.01.27-16.14.09:307][  0]LogWindows:    0. 'NVIDIA GeForce GT 730' (P:1 D:1)
+[2017.01.27-16.14.09:308][  0]LogWindows:    1. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.01.27-16.14.09:308][  0]LogWindows:    2. 'NVIDIA GeForce GT 730' (P:0 D:0)
+[2017.01.27-16.14.09:309][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2017.01.27-16.14.09:310][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.01.27-16.14.09:310][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.01.27-16.14.09:310][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2017.01.27-16.14.09:310][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 730
+[2017.01.27-16.14.09:310][  0]LogD3D11RHI:   Driver Version: 375.63 (internal:21.21.13.7563, unified:375.63)
+[2017.01.27-16.14.09:310][  0]LogD3D11RHI:      Driver Date: 10-21-2016
+[2017.01.27-16.14.09:310][  0]LogRHI: Texture pool is 681 MB (70% of 973 MB)
+[2017.01.27-16.14.09:436][  0]LogD3D11RHI:Warning: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.01.27-16.14.09:437][  0]LogD3D11RHI: Async texture creation enabled
+[2017.01.27-16.14.09:453][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 0)
+[2017.01.27-16.14.09:508][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (../../../../../проект/shooter/Intermediate/Shaders/WorkingDirectory/3112/).
+[2017.01.27-16.14.09:508][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Макс/AppData/Local/Temp/UnrealShaderWorkingDir/8E0146A84C1EBC2648F704BBF754A4D2/'.
+[2017.01.27-16.14.09:508][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.01.27-16.14.32:427][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.01.27-16.14.32:709][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.01.27-16.14.32:945][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.01.27-16.14.33:209][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.01.27-16.14.33:488][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.01.27-16.14.33:750][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.01.27-16.14.34:108][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.01.27-16.14.34:331][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.01.27-16.14.34:463][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.01.27-16.14.34:707][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.01.27-16.14.34:900][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.01.27-16.14.35:136][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.01.27-16.14.35:340][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.01.27-16.14.35:561][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.01.27-16.14.35:847][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.01.27-16.14.36:270][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.01.27-16.14.36:270][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.01.27-16.14.36:447][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.01.27-16.14.36:780][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.01.27-16.14.36:963][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.01.27-16.14.37:191][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.01.27-16.14.37:442][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.01.27-16.14.37:627][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.01.27-16.14.37:810][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.01.27-16.14.37:810][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.01.27-16.14.39:809][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.01.27-16.14.40:068][  0]LogDerivedDataCache: Loaded boot cache 0.26s 50MB C:/Users/Макс/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.01.27-16.14.40:068][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Макс/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.01.27-16.14.40:068][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../проект/shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.01.27-16.14.40:068][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.01.27-16.14.40:069][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../проект/shooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.01.27-16.14.40:069][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.01.27-16.14.40:243][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.01.27-16.14.40:255][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Макс/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.01.27-16.14.40:283][  0]LogSlate: Using Freetype 2.6.0
+[2017.01.27-16.14.40:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.27-16.14.40:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.01.27-16.14.42:578][  0]LogInit: Selected Device Profile: [Windows]
+[2017.01.27-16.14.42:598][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.01.27-16.14.43:269][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.01.27-16.14.43:426][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.01.27-16.14.43:615][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.01.27-16.14.43:615][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.01.27-16.14.43:615][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.01.27-16.14.45:538][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3269047, ProjectName: shooter, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1744627126
+[2017.01.27-16.14.45:630][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.01.27-16.14.45:842][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.114869 seconds
+[2017.01.27-16.14.45:871][  0]LogUObjectArray: 32473 objects as part of root set at end of initial load.
+[2017.01.27-16.14.45:871][  0]LogUObjectAllocator: 7060128 out of 0 bytes used by permanent object pool.
+[2017.01.27-16.14.45:871][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.01.27-16.14.46:102][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.01.27-16.14.51:043][  0]LogStreaming:Warning: Failed to read file 'Common/RoundedSelection_16x.png' error.
+[2017.01.27-16.14.51:043][  0]LogSlate: Could not find file for Slate resource: Common/RoundedSelection_16x.png
+[2017.01.27-16.14.52:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.01.27-16.14.52:838][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.01.27-16.14.54:355][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.01.27-16.14.55:706][  0]SourceControl: Info Source control is disabled
+[2017.01.27-16.14.55:708][  0]SourceControl: Info Source control is disabled
+[2017.01.27-16.14.55:857][  0]SourceControl: Info Source control is disabled
+[2017.01.27-16.14.56:028][  0]SourceControl: Info Source control is disabled
+[2017.01.27-16.15.00:784][  0]LogEngine: Initializing Engine...
+[2017.01.27-16.15.00:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.01.27-16.15.01:541][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.01.27-16.15.01:615][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.27-16.15.01:663][  0]LogInit: FAudioDevice initialized.
+[2017.01.27-16.15.01:767][  0]LogDerivedDataCache: Saved boot cache 0.10s 50MB C:/Users/Макс/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.01.27-16.15.01:797][  0]LogInit: Texture streaming: Enabled
+[2017.01.27-16.15.02:156][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.01.27-16.15.02:499][  0]LogInit: Transaction tracking system initialized
+[2017.01.27-16.15.03:822][  0]BlueprintLog: New page: Editor Load
+[2017.01.27-16.15.07:159][  0]LocalizationService: Info Localization service is disabled
+[2017.01.27-16.15.09:859][  0]LogConsoleResponse:Display: 
+[2017.01.27-16.15.10:654][  0]LogFileCache: Scanning file cache for directory 'D:/проект/shooter/Content/' took 0.03s
+[2017.01.27-16.15.10:655][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.01.27-16.15.10:655][  0]LogCook:Display: Mobile HDR setting 1
+[2017.01.27-16.15.16:396][  0]SourceControl: Info Source control is disabled
+[2017.01.27-16.15.16:396][  0]Cmd: MAP LOAD FILE="../../../../../проект/shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.01.27-16.15.16:543][  0]LightingResults: New page: Lighting Build
+[2017.01.27-16.15.16:758][  0]MapCheck: New page: Map Check
+[2017.01.27-16.15.16:758][  0]LightingResults: New page: Lighting Build
+[2017.01.27-16.15.28:756][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.01.27-16.15.32:727][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.01.27-16.15.32:740][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.01.27-16.15.33:071][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 330.184ms to complete.
+[2017.01.27-16.15.33:072][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 16.675
+[2017.01.27-16.15.34:795][  0]LogCollectionManager: Loaded 0 collections in 0.037250 seconds
+[2017.01.27-16.15.35:112][  0]LogFileCache: Scanning file cache for directory 'D:/проект/shooter/Saved/Collections/' took 0.02s
+[2017.01.27-16.15.35:112][  0]LogFileCache: Scanning file cache for directory 'D:/проект/shooter/Content/Developers/Макс/Collections/' took 0.01s
+[2017.01.27-16.15.35:112][  0]LogFileCache: Scanning file cache for directory 'D:/проект/shooter/Content/Collections/' took 0.01s
+[2017.01.27-16.15.35:112][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.01.27-16.15.35:175][  0]LogContentBrowser: Native class hierarchy populated in 0.0610 seconds. Added 2244 classes and 450 folders.
+[2017.01.27-16.15.35:181][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.01.27-16.15.35:218][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.01.27-16.15.35:712][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.01.27-16.15.37:254][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2017.01.27-16.15.37:641][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.01.27-16.15.38:697][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.01.27-16.15.38:828][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.01.27-16.15.39:112][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.01.27-16.15.39:112][  0]LogLoad: (Engine Initialization) Total time: 109.28 seconds
+[2017.01.27-16.15.39:112][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.36 seconds
+[2017.01.27-16.15.39:112][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.01.27-16.15.39:619][  0]LogOcInput: OculusInput pre-init called
+[2017.01.27-16.15.40:005][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.01.27-16.15.40:050][  0]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.01.27-16.15.40:062][  0]LogSlate: Took 0.001022 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.01.27-16.15.40:130][  0]LogSlate: Took 0.004407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.01.27-16.15.42:686][  1]LogRenderer: Reallocating scene render targets to support 128x128 NumSamples 1 (Frame:1).
+[2017.01.27-16.15.45:389][  1]LogRenderer: Reallocating scene render targets to support 1004x584 NumSamples 1 (Frame:2).
+[2017.01.27-16.15.47:158][  4]LogAssetRegistry: Asset discovery search completed in 61.5488 seconds
+[2017.01.27-16.15.47:158][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.01.27-16.15.47:158][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.01.27-16.17.03:945][619]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2017.01.27-16.17.52:258][397]LogSlate: Took 0.024511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.01.27-16.19.05:969][722]LogSlate: Took 0.000571 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.01.27-16.19.06:380][722]LogTexture:Display: Building textures: Texture2D_0 (BGRA8)
+[2017.01.27-16.19.06:496][722]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.01.27-16.19.06:580][722]LogTemp:Display: Added material ShaderMap 0x0000000062908480 with Material 0x0000000046576C80 to ShaderMapsBeingCompiled
+[2017.01.27-16.19.06:904][722]LogTemp:Display: Kicking off shader compilation for M_Ground_Grass, GameThreadShaderMap 0x0000000062908480
+[2017.01.27-16.19.06:960][722]LogMaterial: 0.04 seconds spent updating 1 materials, 64 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.20.42:034][918]LogTexture:Display: Building textures: Texture2D_8 (BGRA8)
+[2017.01.27-16.20.42:110][918]LogTemp:Display: Added shader map 0x0000000062908480 from material 0x000000006D5CE500
+[2017.01.27-16.20.42:110][918]LogTemp:Display: Found existing compiling shader for material M_Ground_Grass, linking to other GameThreadShaderMap 0x0000000062908480
+[2017.01.27-16.20.42:117][918]LogMaterial: 0.00 seconds spent updating 1 materials, 64 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.21.10:185][228]Cmd: TRANSACTION UNDO
+[2017.01.27-16.21.10:185][228]LogEditorTransaction: Undo Creating New Landscape
+[2017.01.27-16.21.11:989][237]Cmd: TRANSACTION UNDO
+[2017.01.27-16.21.11:989][237]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.21.19:271][304]Cmd: TRANSACTION UNDO
+[2017.01.27-16.21.19:271][304]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.01.27-16.21.19:278][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.21.19:289][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.21.21:276][316]Cmd: TRANSACTION UNDO
+[2017.01.27-16.21.21:276][316]LogEditorTransaction: Undo Creating New Landscape
+[2017.01.27-16.21.52:068][981]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.21.57:540][ 56]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.21.57:679][ 56]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.01.27-16.22.25:968][506]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.22.33:566][630]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.23.03:516][110]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.23.13:173][328]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.23.13:348][328]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.23.13:429][328]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.23.13:925][328]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.23.43:599][139]LogTemp:Display: Finished compile of shader map 0x0000000062908480
+[2017.01.27-16.23.43:599][139]LogTemp:Display: Shader map M_Ground_Grass complete, GameThreadShaderMap 0x0000000062908480, marking material M_Ground_Grass as finished
+[2017.01.27-16.23.43:599][139]LogTemp:Display: Marking material as finished 0x0000000046576C80
+[2017.01.27-16.23.43:601][139]LogTemp:Display: Shader map M_Ground_Grass complete, GameThreadShaderMap 0x0000000062908480, marking material M_Ground_Grass as finished
+[2017.01.27-16.23.43:602][139]LogTemp:Display: Marking material as finished 0x000000006D5CE500
+[2017.01.27-16.23.49:890][348]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.23.50:907][376]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.23.51:060][378]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.01.27-16.23.51:799][402]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.23.52:246][414]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.23.55:829][607]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.01.27-16.24.11:411][ 93]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.24.14:734][258]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.24.15:577][306]Cmd: CAMERA SNAP
+[2017.01.27-16.24.15:577][306]Snapped camera to the first selected object.
+[2017.01.27-16.24.23:793][550]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.24.26:105][680]LogSlate: Took 0.027178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.01.27-16.24.33:823][817]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.24.36:666][927]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.41:634][100]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.45:245][210]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.46:229][263]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.01.27-16.25.47:178][291]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.48:650][350]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.51:355][480]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.25.53:370][552]Cmd: CAMERA SNAP
+[2017.01.27-16.25.53:370][552]Snapped camera to the first selected object.
+[2017.01.27-16.26.42:519][489]Cmd: SELECT NONE
+[2017.01.27-16.27.00:839][817]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.28.28:267][ 92]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.28:267][ 92]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.28.28:303][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:315][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:317][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:319][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:320][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:321][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:322][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:323][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:325][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:327][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:328][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:329][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:331][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:332][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:333][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:334][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:338][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:339][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:340][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:341][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:342][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:343][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:343][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:344][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:346][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:347][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:348][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:348][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:349][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:350][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:351][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:351][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:353][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:354][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:355][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:358][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:359][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:360][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:361][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:362][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:362][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:363][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:365][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:367][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:368][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:369][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:371][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:372][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:373][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:374][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:375][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:378][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:379][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:380][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:381][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:382][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:383][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:384][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:385][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:389][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:390][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:390][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.28:391][ 92]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.30:829][ 92]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.28.40:314][237]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.40:314][237]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.28.41:633][262]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.41:633][262]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.28.43:888][262]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.43:888][262]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.28.43:943][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:945][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:946][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:947][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:948][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:948][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:949][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:950][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:950][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:951][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:952][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:953][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:954][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:955][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:956][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:956][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:957][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:958][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:959][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:959][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:960][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:960][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:961][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:962][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:964][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:966][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:967][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:969][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:970][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:972][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:972][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:974][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:977][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:979][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:980][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:982][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:984][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:988][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:990][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:991][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:992][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:993][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:996][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.43:998][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:008][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:009][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:010][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:012][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:013][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:015][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:016][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:017][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:018][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:019][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:020][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:021][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:022][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:023][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:027][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:028][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:029][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:030][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.44:031][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:330][262]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.46:330][262]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.28.46:347][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:349][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:349][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:350][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:351][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:352][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:353][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:353][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:355][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:356][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:356][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:357][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:358][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:358][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:359][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:359][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:360][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:361][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:362][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:362][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:363][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:364][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:365][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:366][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:366][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:367][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:369][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:370][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:372][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:373][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:375][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:377][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:379][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:388][262]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:390][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:391][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:392][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:395][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:412][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:413][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:415][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:416][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:417][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:418][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:419][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:420][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:422][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:425][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:426][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:427][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:428][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:429][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:430][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:431][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:432][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:433][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:435][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:436][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:437][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:438][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:439][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:439][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.46:440][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:835][262]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.48:836][262]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.28.48:865][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:868][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:869][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:872][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:873][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:875][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:876][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:878][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:879][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:880][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:881][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:881][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:882][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:883][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:886][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:887][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:888][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:888][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:889][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:889][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:890][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:891][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:891][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:892][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:892][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:893][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:894][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:895][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:896][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:896][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:897][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:898][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:899][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:900][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:900][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:901][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:902][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:902][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:903][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:906][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:907][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:908][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:910][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:911][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:918][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:920][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:922][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:923][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:925][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:928][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:938][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:941][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:942][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:943][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:945][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:945][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:947][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:948][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:950][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:951][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:952][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:955][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.48:956][262]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.28.51:383][262]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.28.51:571][262]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.28.51:629][262]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.28.51:896][262]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.28.57:078][337]Cmd: TRANSACTION UNDO
+[2017.01.27-16.28.57:078][337]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.00:415][358]LogSlate: Took 0.059430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.01.27-16.29.01:130][358]LogSavePackage: Save=2190.87ms
+[2017.01.27-16.29.01:130][358]LogSavePackage: Moving '../../../../../проект/shooter/Saved/FirstPersonExampleMap_Auto1AE3160E5436AC95DC0FB6CB430A4731D.tmp' to '../../../../../проект/shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2017.01.27-16.29.01:285][358]LogSavePackage:Display: Finished SavePackage ../../../../../проект/shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2017.01.27-16.29.01:325][358]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 2.916
+[2017.01.27-16.29.01:325][358]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.916
+[2017.01.27-16.29.03:845][394]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.03:845][394]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.05:855][432]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.05:855][432]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.07:593][460]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.07:593][460]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.08:495][470]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.08:495][470]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.29.08:530][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:531][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:532][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:534][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:535][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:536][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:537][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:538][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:539][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:540][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:540][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:541][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:542][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:543][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:544][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:545][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:547][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:548][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:549][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:551][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:553][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:554][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:555][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:557][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:557][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:558][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:559][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:561][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:562][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:563][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:564][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:565][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:567][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:568][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:568][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:569][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:570][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:571][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:572][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:573][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:574][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:575][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:576][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:577][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:578][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:579][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:579][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:580][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:581][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:582][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:583][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:583][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:584][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:585][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:586][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:587][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:587][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:588][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:590][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:591][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:592][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:593][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.08:595][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:821][470]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.10:823][470]LogEditorTransaction: Undo Rotate Actors
+[2017.01.27-16.29.10:854][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:855][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:856][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:857][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:858][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:859][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:859][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:860][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:861][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:861][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:862][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:863][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:863][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:864][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:865][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:865][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:866][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:867][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:867][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:868][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:869][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:870][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:871][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:875][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:877][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:878][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:879][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:881][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:883][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:884][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:886][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:888][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:893][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:895][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:896][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:898][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:898][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:899][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:900][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:901][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:916][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:917][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:918][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:919][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:921][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:922][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:922][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:923][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:924][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:925][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:925][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:926][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:927][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:927][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:928][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:928][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:929][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:929][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:930][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:931][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:931][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:932][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.10:933][470]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.13:321][470]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.13:322][470]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.13:324][470]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.13:324][470]LogEditorTransaction: Undo Select None
+[2017.01.27-16.29.18:962][548]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.18:962][548]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.29.18:991][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:993][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:994][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:996][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:997][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:998][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.18:999][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:000][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:002][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:003][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:004][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:006][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:007][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:007][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:009][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:010][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:011][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:012][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:013][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:015][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:016][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:025][548]LogMaterial: 0.01 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:026][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:031][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:032][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:033][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:033][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:034][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:035][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:036][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:037][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:038][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:040][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:040][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:041][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:042][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:042][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:043][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:044][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:045][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:046][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:047][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:048][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:049][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:050][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:052][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:053][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:054][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:055][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:056][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:058][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:059][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:060][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:077][548]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:077][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:078][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:079][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:080][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:080][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:081][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:082][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:082][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.19:083][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.29.22:439][563]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.22:439][563]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.24:616][609]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.24:616][609]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.26:399][635]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.26:399][635]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.27:955][657]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.27:956][657]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.29:820][685]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.29:820][685]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.31:300][705]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.31:300][705]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.33:200][730]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.33:200][730]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.33:299][731]Cmd: ACTOR SELECT ALL
+[2017.01.27-16.29.34:674][755]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.34:674][755]LogEditorTransaction: Undo Select All
+[2017.01.27-16.29.35:755][769]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.35:755][769]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.36:569][782]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.36:569][782]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.38:023][803]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.38:023][803]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.38:923][816]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.38:923][816]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.39:902][831]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.39:902][831]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.41:332][852]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.41:332][852]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2017.01.27-16.29.42:351][866]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.42:351][866]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.43:619][883]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.43:619][883]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.44:557][895]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.44:557][895]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.45:564][907]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.45:564][907]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.01.27-16.29.46:443][919]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.46:443][919]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.47:099][928]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.47:099][928]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.47:686][934]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.47:686][934]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.48:151][940]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.48:152][940]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.48:660][946]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.48:660][946]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.49:097][953]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.49:097][953]LogEditorTransaction: Undo Clicking on Actors (double-click)
+[2017.01.27-16.29.49:573][959]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.49:573][959]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.49:957][964]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.49:957][964]LogEditorTransaction: Undo Clicking on Actors
+[2017.01.27-16.29.50:682][976]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.50:682][976]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.29.51:532][985]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.51:532][985]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.52:149][987]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.52:149][987]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.52:520][988]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.52:520][988]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.52:916][990]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.52:916][990]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.53:240][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.53:240][991]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.53:544][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.53:544][991]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.53:864][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.53:864][991]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.54:197][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.54:197][991]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.54:487][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.54:487][991]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.29.54:786][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.54:786][991]LogEditorTransaction: Undo Edit Material
+[2017.01.27-16.29.55:076][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.55:076][991]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.29.55:357][991]Cmd: TRANSACTION UNDO
+[2017.01.27-16.29.55:357][991]LogEditorTransaction: Undo Move Actors
+[2017.01.27-16.30.06:414][169]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.30.07:282][180]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.30.09:487][209]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.30.10:041][214]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.30.12:261][243]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.01.27-16.30.13:410][258]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.32.02:481][866]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.01.27-16.32.17:168][181]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.32.17:212][181]LogMaterial: Missing cached shader map for material BaseMaterial, compiling. 
+[2017.01.27-16.32.17:214][181]LogTemp:Display: Added material ShaderMap 0x000000005484B200 with Material 0x000000004846D300 to ShaderMapsBeingCompiled
+[2017.01.27-16.32.17:323][181]LogTemp:Display: Kicking off shader compilation for BaseMaterial, GameThreadShaderMap 0x000000005484B200
+[2017.01.27-16.32.17:344][181]LogMaterial: 0.00 seconds spent updating 1 materials, 63 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.32.39:728][534]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.32.39:786][534]LogMaterial: 0.00 seconds spent updating 1 materials, 63 interfaces, 0 instances, 0 with static permutations.
+[2017.01.27-16.33.02:389][845]LogTemp: Repeting last play command: Selected Viewport
+[2017.01.27-16.33.02:490][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.27-16.33.02:505][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.01.27-16.33.02:576][845]PIE: New page: PIE session: FirstPersonExampleMap (Jan 27, 2017, 10:33:02 PM)
+[2017.01.27-16.33.02:600][845]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2017.01.27-16.33.02:757][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.156872s)
+[2017.01.27-16.33.02:761][845]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.01.27-16.33.02:762][845]LogPlayLevel: PIE: World Init took: (0.004610s)
+[2017.01.27-16.33.02:779][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.179488s)
+[2017.01.27-16.33.02:848][845]LogGarbage:Warning: GC detected illegal reference to PIE object from content [possibly via [todo]]:
+[2017.01.27-16.33.02:848][845]LogGarbage:Warning:       PIE object: World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap
+[2017.01.27-16.33.02:848][845]LogGarbage:Warning:   NON-PIE object: UnrealEdEngine /Engine/Transient.UnrealEdEngine_0
+[2017.01.27-16.33.02:882][845]LogTemp:Display: Removed shader map 0x000000005484B200 from material 0x000000004846D300
+[2017.01.27-16.33.03:779][845]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.01.27-16.33.10:101][845]LogInit: FAudioDevice initialized.
+[2017.01.27-16.33.10:719][845]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.01.27-16.33.10:852][845]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.01.27-19.33.10
+[2017.01.27-16.33.11:106][845]LogWorld: Bringing up level for play took: 0.280312
+[2017.01.27-16.33.14:541][845]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.01.27-16.33.14:866][845]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 11.61
+[2017.01.27-16.33.14:866][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.27-16.34.06:081][ 14]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=34257.266 Y=-18608.971 Z=13277.999] for [FirstPersonProjectile_C]
+[2017.01.27-16.34.07:123][ 47]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=34412.586 Y=-18623.459 Z=13388.106] for [FirstPersonProjectile_C]
+[2017.01.27-16.34.29:650][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.27-16.34.29:877][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2017.01.27-16.34.50:788][353]LogTemp:Display: Finished compile of shader map 0x000000005484B200
+[2017.01.27-16.36.22:672][813]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.36.23:483][824]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.36.23:895][829]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.36.24:159][831]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.36.24:379][833]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.36.24:631][835]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.01.27-16.40.29:319][ 46]LogTexture:Display: Building textures: Texture2D_183 (BGRA8)
+[2017.01.27-16.40.29:320][ 46]LogTexture:Display: Building textures: Texture2D_146 (BGRA8)
+[2017.01.27-16.40.29:321][ 46]LogTexture:Display: Building textures: Texture2D_188 (BGRA8)
+[2017.01.27-16.40.29:336][ 46]LogTexture:Display: Building textures: Texture2D_147 (BGRA8)
+[2017.01.27-16.40.29:355][ 46]LogTexture:Display: Building textures: Texture2D_67 (BGRA8)
+[2017.01.27-16.40.29:388][ 46]LogTexture:Display: Building textures: Texture2D_138 (BGRA8)
+[2017.01.27-16.40.29:389][ 46]LogTexture:Display: Building textures: Texture2D_68 (BGRA8)
+[2017.01.27-16.40.29:417][ 46]LogTexture:Display: Building textures: Texture2D_139 (BGRA8)
+[2017.01.27-16.40.30:349][ 46]LogSavePackage: Save=1127.94ms
+[2017.01.27-16.40.30:349][ 46]LogSavePackage: Moving '../../../../../проект/shooter/Saved/FirstPersonExampleMap_Auto20853E44C4025178CA4301DB4188BA2AD.tmp' to '../../../../../проект/shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap'
+[2017.01.27-16.40.30:377][ 46]LogSavePackage:Display: Finished SavePackage ../../../../../проект/shooter/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto2.umap
+[2017.01.27-16.40.30:388][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 1.252
+[2017.01.27-16.40.30:388][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.252
+[2017.01.27-16.40.30:401][ 46]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Engine/EngineSky/SM_SkySphere] ([1] browsable assets)...
+[2017.01.27-16.40.30:506][ 46]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Engine/EngineSky/SM_SkySphere.SM_SkySphere]
+[2017.01.27-16.40.30:506][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Engine/EngineSky/SM_SkySphere]
+[2017.01.27-16.40.30:506][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/SM_SkySphere" FILE="../../../../../проект/shooter/Saved/Autosaves/Engine/EngineSky/SM_SkySphere_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.01.27-16.40.30:563][ 46]LogSavePackage: Save=51.57ms
+[2017.01.27-16.40.30:563][ 46]LogSavePackage: Moving '../../../../../проект/shooter/Saved/SM_SkySphere_Auto204F5FB3F465020EBC98F73871B5E15FF.tmp' to '../../../../../проект/shooter/Saved/Autosaves/Engine/EngineSky/SM_SkySphere_Auto2.uasset'
+[2017.01.27-16.40.30:565][ 46]LogSavePackage:Display: Finished SavePackage ../../../../../проект/shooter/Saved/Autosaves/Engine/EngineSky/SM_SkySphere_Auto2.uasset
+[2017.01.27-16.40.30:565][ 46]LogFileHelpers: Auto-saving content packages took 0.174
+[2017.01.27-16.50.15:442][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/SM_SkySphere" FILE="../../../Engine/Content/EngineSky/SM_SkySphere.uasset" SILENT=true
+[2017.01.27-16.50.15:541][821]LogSavePackage: Save=69.19ms
+[2017.01.27-16.50.15:541][821]LogSavePackage: Moving '../../../../../проект/shooter/Saved/SM_SkySphere7FC9A71E4893A957198A56BF07C47054.tmp' to '../../../Engine/Content/EngineSky/SM_SkySphere.uasset'
+[2017.01.27-16.50.15:558][821]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/SM_SkySphere.uasset
+[2017.01.27-16.50.17:319][821]LogSavePackage: Save=1201.94ms
+[2017.01.27-16.50.17:319][821]LogSavePackage: Moving '../../../../../проект/shooter/Saved/FirstPersonExampleMapE20FA83845939571621033865247DF3E.tmp' to '../../../../../проект/shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.01.27-16.50.17:334][821]LogSavePackage:Display: Finished SavePackage ../../../../../проект/shooter/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2017.01.27-16.50.17:470][821]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.851
+[2017.01.27-16.50.19:113][822]Cmd: QUIT_EDITOR
+[2017.01.27-16.50.19:714][822]LogExit: Preparing to exit.
+[2017.01.27-16.50.22:008][822]LogDirectoryWatcher: A directory notification for 'D:/проект/shooter/Content/' was aborted.
+[2017.01.27-16.50.22:230][822]LogExit: Editor shut down
+[2017.01.27-16.50.22:231][822]LogExit: Transaction tracking system shut down
+[2017.01.27-16.50.24:506][822]LogObj: Freed 0b from 0 cluster array pools.
+[2017.01.27-16.50.24:507][822]LogExit: Object subsystem successfully closed.
+[2017.01.27-16.50.27:417][822]LogD3D11RHI: Shutdown
+[2017.01.27-16.50.27:417][822]LogD3D11RHI: CleanupD3DDevice
+[2017.01.27-16.50.28:127][822]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.01.27-16.50.30:111][822]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.01.27-16.50.30:111][822]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.01.27-16.50.30:169][822]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.01.27-16.50.30:169][822]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.01.27-16.50.30:169][822]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.01.27-16.50.30:267][822]LogDirectoryWatcher: A directory notification for 'D:/Новая папка (5)/UE_4.15/FeaturePacks/' was aborted.
+[2017.01.27-16.50.30:320][822]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.01.27-16.50.30:320][822]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.01.27-16.50.30:321][822]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.01.27-16.50.30:342][822]LogDirectoryWatcher: A directory notification for 'D:/проект/shooter/Content/Collections/' was aborted.
+[2017.01.27-16.50.30:342][822]LogDirectoryWatcher: A directory notification for 'D:/проект/shooter/Content/Developers/Макс/Collections/' was aborted.
+[2017.01.27-16.50.30:342][822]LogDirectoryWatcher: A directory notification for 'D:/проект/shooter/Saved/Collections/' was aborted.
+[2017.01.27-16.50.30:342][822]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.01.27-16.50.30:418][822]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.01.27-16.50.30:419][822]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.01.27-16.50.30:419][822]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.01.27-16.50.30:419][822]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.01.27-16.50.30:419][822]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.01.27-16.50.30:441][822]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.01.27-16.50.30:442][822]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.01.27-16.50.30:461][822]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.01.27-16.50.30:461][822]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.01.27-16.50.30:511][822]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.01.27-16.50.30:512][822]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.01.27-16.50.30:572][822]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.01.27-16.50.30:652][822]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.01.27-16.50.30:719][822]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.01.27-16.50.30:821][822]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.01.27-16.50.30:821][822]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.01.27-16.50.30:821][822]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.01.27-16.50.30:821][822]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.01.27-16.50.30:821][822]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.01.27-16.50.30:903][822]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.01.27-16.50.30:953][822]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.01.27-16.50.31:040][822]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.01.27-16.50.31:040][822]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.01.27-16.50.31:040][822]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.01.27-16.50.31:040][822]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.01.27-16.50.31:040][822]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.01.27-16.50.31:311][822]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.01.27-16.50.31:311][822]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.01.27-16.50.31:311][822]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.01.27-16.50.31:371][822]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.01.27-16.50.31:567][822]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.01.27-16.50.31:631][822]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.01.27-16.50.31:641][822]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.01.27-16.50.31:725][822]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.01.27-16.50.31:725][822]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.01.27-16.50.31:797][822]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.01.27-16.50.31:969][822]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.01.27-16.50.31:996][822]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.01.27-16.50.31:996][822]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.01.27-16.50.31:996][822]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.01.27-16.50.31:996][822]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.01.27-16.50.31:996][822]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.01.27-16.50.32:049][822]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.01.27-16.50.32:049][822]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.01.27-16.50.32:049][822]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.01.27-16.50.32:049][822]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.01.27-16.50.32:231][822]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.01.27-16.50.32:231][822]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.01.27-16.50.32:336][822]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.01.27-16.50.32:387][822]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.01.27-16.50.32:441][822]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.01.27-16.50.32:540][822]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.01.27-16.50.32:652][822]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.01.27-16.50.32:757][822]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.01.27-16.50.32:976][822]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.01.27-16.50.32:976][822]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.01.27-16.50.33:089][822]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.01.27-16.50.33:090][822]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.01.27-16.50.33:322][822]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.01.27-16.50.33:322][822]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.01.27-16.50.33:468][822]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.01.27-16.50.33:608][822]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.01.27-16.50.33:608][822]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.01.27-16.50.33:659][822]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.01.27-16.50.33:659][822]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.01.27-16.50.33:659][822]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.01.27-16.50.33:702][822]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.01.27-16.50.33:711][822]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.01.27-16.50.33:746][822]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.01.27-16.50.33:771][822]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.01.27-16.50.33:771][822]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.01.27-16.50.34:021][822]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.01.27-16.50.34:102][822]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.01.27-16.50.34:150][822]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.01.27-16.50.34:150][822]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.01.27-16.50.34:217][822]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.01.27-16.50.34:217][822]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.01.27-16.50.34:251][822]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.01.27-16.50.34:251][822]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.01.27-16.50.34:312][822]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.01.27-16.50.34:312][822]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.01.27-16.50.34:312][822]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.01.27-16.50.34:312][822]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.01.27-16.50.34:312][822]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.01.27-16.50.34:426][822]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.01.27-16.50.34:523][822]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.01.27-16.50.34:523][822]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.01.27-16.50.34:523][822]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.01.27-16.50.34:523][822]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.01.27-16.50.34:523][822]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.01.27-16.50.34:575][822]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.01.27-16.50.34:700][822]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.01.27-16.50.34:749][822]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.01.27-16.50.34:799][822]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.01.27-16.50.34:799][822]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.01.27-16.50.34:799][822]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.01.27-16.50.34:800][822]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.01.27-16.50.34:864][822]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.01.27-16.50.34:864][822]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.01.27-16.50.34:953][822]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.01.27-16.50.35:020][822]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.01.27-16.50.35:020][822]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.01.27-16.50.35:021][822]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.01.27-16.50.35:022][822]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.01.27-16.50.35:022][822]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.01.27-16.50.35:022][822]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.01.27-16.50.35:022][822]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.01.27-16.50.35:122][822]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.01.27-16.50.35:222][822]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.01.27-16.50.35:310][822]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.01.27-16.50.35:371][822]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.01.27-16.50.35:371][822]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.01.27-16.50.35:371][822]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.01.27-16.50.35:371][822]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.01.27-16.50.35:440][822]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.01.27-16.50.35:580][822]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.01.27-16.50.35:580][822]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.01.27-16.50.35:580][822]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.01.27-16.50.35:580][822]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.01.27-16.50.35:639][822]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.01.27-16.50.35:639][822]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.01.27-16.50.35:727][822]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.01.27-16.50.35:727][822]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.01.27-16.50.35:762][822]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.01.27-16.50.35:811][822]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.01.27-16.50.35:852][822]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.01.27-16.50.35:860][822]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.01.27-16.50.35:931][822]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.01.27-16.50.35:931][822]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.01.27-16.50.35:931][822]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.01.27-16.50.35:968][822]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.01.27-16.50.35:968][822]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.01.27-16.50.35:971][822]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.01.27-16.50.35:972][822]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.01.27-16.50.35:972][822]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.01.27-16.50.35:972][822]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.01.27-16.50.35:972][822]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.01.27-16.50.36:002][822]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.01.27-16.50.36:216][822]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.01.27-16.50.36:216][822]LogDirectoryWatcher: A directory notification for '../../../../../проект/shooter/Content/' was aborted.
+[2017.01.27-16.50.36:216][822]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.01.27-16.50.36:231][822]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.01.27-16.50.36:233][822]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.01.27-16.50.36:233][822]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.01.27-16.50.36:233][822]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.01.27-16.50.36:274][822]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.01.27-16.50.36:274][822]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.01.27-16.50.36:274][822]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.01.27-16.50.36:274][822]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.01.27-16.50.36:274][822]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.01.27-16.50.36:347][822]LogDerivedDataCache: Shutdown
+[2017.01.27-16.50.36:347][822]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.01.27-16.50.36:347][822]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.01.27-16.50.36:353][822]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.01.27-16.50.36:359][822]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.01.27-16.50.36:372][822]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.01.27-16.50.36:382][822]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.01.27-16.50.36:382][822]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.01.27-16.50.36:382][822]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.01.27-16.50.36:395][822]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.01.27-16.50.36:421][822]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.01.27-16.50.36:421][822]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.01.27-16.50.36:421][822]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.01.27-16.50.36:421][822]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.01.27-16.50.36:438][822]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.01.27-16.50.36:438][822]LogOnline:Display: Unloading online subsystem: NULL
+[2017.01.27-16.50.36:466][822]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.01.27-16.50.36:498][822]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.01.27-16.50.36:498][822]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.01.27-16.50.36:498][822]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B32C90E02-40B9-6698-8F1C-C19F6F449D86%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3269047%2B%2B%2BUE4%2BRelease-4.15&UserID=292db3ce479005ce9ce45e98f54cf7e8%7C6a580a7ce91d4a18860ec6758e5e9855%7C9cbebc3b-067c-43e7-ab52-1e13e43ee118&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.01.27-16.50.36:520][822]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.01.27-16.50.36:529][822]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.01.27-16.50.36:529][822]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.01.27-16.50.36:603][822]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.01.27-16.50.36:603][822]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.01.27-16.50.36:603][822]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.01.27-16.50.36:615][822]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.01.27-16.50.36:640][822]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.01.27-16.50.36:640][822]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.01.27-16.50.36:673][822]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.01.27-16.50.36:673][822]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.01.27-16.50.36:673][822]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.01.27-16.50.36:673][822]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.01.27-16.50.36:673][822]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.01.27-16.50.36:703][822]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.01.27-16.50.36:703][822]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.01.27-16.50.36:759][822]LogExit: Exiting.
+[2017.01.27-16.50.36:942][822]Log file closed, 01/27/17 19:50:36
